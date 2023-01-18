@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c10b0da2-926f-4421-9a38-d167c44974df" name="Changes" comment="" />
+    <list default="true" id="c10b0da2-926f-4421-9a38-d167c44974df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lv/acodemy/constants/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lv/acodemy/page_object/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSauceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lv/acodemy/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +54,7 @@
       <recent name="C:\Users\alice\Desktop\automation`\acodemy_qa" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestChrome">
+  <component name="RunManager" selected="TestNG.TestSauceDemo.authorizeTest">
     <configuration name="TestChrome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="acodemy_qa" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,8 +78,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSauceDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="acodemy_qa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSauceDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSauceDemo.authorizeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="acodemy_qa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSauceDemo" />
+      <option name="METHOD_NAME" value="authorizeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSauceDemo.authorizeTest" />
+        <item itemvalue="TestNG.TestSauceDemo" />
         <item itemvalue="TestNG.TestChrome" />
         <item itemvalue="TestNG.TestChrome.chromeTest" />
       </list>
@@ -102,11 +133,26 @@
       <option name="project" value="LOCAL" />
       <updated>1673986444331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="automation">
+      <created>1673986707483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673986707483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[master]: Project initial upload">
+      <created>1673995442951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673995442951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="automation" />
-    <option name="LAST_COMMIT_MESSAGE" value="automation" />
+    <MESSAGE value="[master]: Project initial upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="[master]: Project initial upload" />
   </component>
 </project>
