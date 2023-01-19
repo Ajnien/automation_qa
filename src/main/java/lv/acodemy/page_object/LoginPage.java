@@ -7,6 +7,7 @@ public class LoginPage {
     private final By loginField = By.id("user-name");
     private final By passwordField = By.name("password");
     private final By loginButton = By.xpath("//input[contains(@class, 'submit-button')]");
+    private final By errorMessage = By.xpath("//h3[@data-test='error']");
     private WebDriver driver;
 
     public LoginPage(WebDriver driver) {
@@ -17,7 +18,8 @@ public class LoginPage {
         driver.findElement(loginField).sendKeys(login);
         driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginButton).click();
-
-
+    }
+    public String getErrorMessage() {
+        return driver.findElement(errorMessage).getText();
     }
 }
